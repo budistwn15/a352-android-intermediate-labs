@@ -14,10 +14,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:transitionName="profile"
         tools:srcCompat="@drawable/ahmad_dahlan" />
 
     <TextView
         android:id="@+id/nameTextView"
+        android:transitionName="name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -31,6 +33,7 @@
 
     <TextView
         android:id="@+id/descTextView"
+        android:transitionName="description"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
